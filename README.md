@@ -1,1 +1,1 @@
-"# grupo-sks-front" 
+# grupo-sks-front
