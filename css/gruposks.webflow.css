@@ -50,7 +50,6 @@
 }
 
 .menu-top {
-  max-height: 105px;
   max-width: 100%;
   background-color: #000;
 }
@@ -288,10 +287,9 @@
 .container-quemsomos {
   float: none;
   background-color: rgba(151, 28, 28, 0);
-  margin-top: 650px;
   position: relative;
   z-index: 2;
-  top: -6px;
+  top: -3em;
 }
 
 .slide-nav {
@@ -1572,7 +1570,6 @@
   max-width: 100%;
   min-height: 463px;
   background-color: #00b2a9;
-  margin-top: 530px;
 }
 
 .div-logo-verde {
@@ -1614,8 +1611,6 @@
 }
 
 .tabs-menu-wrapper {
-  max-width: 1400px;
-  min-width: 1440px;
   background-color: rgba(70, 70, 70, 0);
   border: 1px #000;
   border-radius: 0;
