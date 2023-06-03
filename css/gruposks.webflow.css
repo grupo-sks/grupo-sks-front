@@ -2,6 +2,10 @@
   background-color: #000;
 }
 
+.sidebar {
+  display: none;
+}
+
 .info-top {
   max-height: 105px;
   max-width: 1440px;
@@ -316,13 +320,12 @@
 .titulo {
   max-height: 43px;
   min-height: 43px;
-  min-width: 346px;
   color: #fff;
   flex-direction: column;
   padding-top: 53px;
-  padding-left: 51px;
+  margin-left: 4vw;
   font-family: Kastelov axiforma, Georgia, sans-serif;
-  font-size: 42.13px;
+  font-size: clamp(22px, 10vw, 42.13px);
   font-weight: 600;
   display: flex;
 }
@@ -338,8 +341,6 @@
 .titulo.preto.especificacoestelhas {
   margin-top: -8px;
   padding-top: 3px;
-  padding-left: 34px;
-  margin-left: 0.8em;
 }
 
 .image-3 {
@@ -782,7 +783,6 @@
 .div-selos.aco {
   max-width: 517px;
   align-items: center;
-  margin-top: -54px;
   display: flex;
 }
 
@@ -904,8 +904,9 @@
   max-width: 500px;
   justify-content: flex-start;
   margin-top: 49px;
-  margin-left: 58px;
+  margin-left: 4vw;
   display: flex;
+  width: 90%;
 }
 
 .mapa {
@@ -1003,7 +1004,6 @@
 
 .paragraph-8 {
   min-height: 50px;
-  min-width: 326px;
   margin-top: -38px;
   margin-bottom: 0;
   margin-left: 45px;
@@ -1399,6 +1399,11 @@
   background-image: url('../images/bannernovo3.png');
   background-position: 0 0;
   background-size: auto;
+}
+
+
+.dados-contato .w-form {
+  width: 100%;
 }
 
 .html-embed {
@@ -1887,13 +1892,12 @@
 .titulo-copy {
   max-height: 43px;
   min-height: 43px;
-  min-width: 346px;
   color: #fff;
   flex-direction: column;
-  padding-top: 53px;
-  padding-left: 51px;
+  margin-top: 53px;
+  margin-left: 51px;
   font-family: Kastelov axiforma, Georgia, sans-serif;
-  font-size: 42.13px;
+  font-size: clamp(22px, 10vw, 42.13px);
   font-weight: 600;
   display: flex;
 }
@@ -1904,28 +1908,29 @@
 
 .image-32 {
   max-width: 64%;
-  margin-left: 175px;
-  margin-right: auto;
 }
 
-.image-32._2 {
-  margin-left: 361px;
+.images-aco {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
+
+.images-aco img {
+  max-width: 45% !important;
+}
+
 
 .image-32._5 {
   max-width: 53%;
-  margin-left: 249px;
-  margin-right: auto;
 }
 
 .image-32._6 {
   max-width: 46%;
-  margin-left: 360px;
 }
 
 .image-32._7 {
   max-width: 45%;
-  margin-left: 321px;
 }
 
 .image-32._8 {
@@ -1942,16 +1947,16 @@
   color: #fff;
   font-family: Kastelov axiforma, Georgia, sans-serif;
   font-size: 29px;
-  margin-left: 2.2em;
+  margin-left: 4vw;
 }
 
 .paragraph-12 {
   color: #fff;
   font-family: Kastelov axiforma, Georgia, sans-serif;
-  font-size: 22px;
+  font-size: clamp(16px, 3vw, 23px);
   font-weight: 500;
-  line-height: 30.5px;
-  margin: 0 3em;
+  line-height: 1em;
+  margin: 0 4vw;
 }
 
 .div-block-30 {
@@ -2397,7 +2402,6 @@
   }
 
   .dados-contato {
-    max-width: unset;
     justify-content: start;
   }
 
@@ -2406,10 +2410,6 @@
     justify-content: center;
     padding: 3em;
     margin-right: 0;
-  }
-
-  .dados-contato .w-form {
-    width: 80%;
   }
 
   .div-block-28 {
@@ -2458,8 +2458,92 @@
   }
 
   .paragraph-11 {
-    font-size: 1em;
+    font-size: 3vw;
     margin: 0 1em;
   }
 
+}
+
+@media screen and (max-width: 992px) {
+
+  .nav-aco,
+  .content-black,
+  .bg-black,
+  .line-green {
+    display: none;
+  }
+
+  .sidebar {
+    display: unset;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .justify-none {
+    justify-content: center !important;
+  }
+
+  .div-block-20 {
+    padding-bottom: 58px;
+    margin-left: 4vw;
+  }
+
+  .footer-footer {
+    flex-direction: column;
+  }
+
+  .div-block-24 {
+    margin-top: 2em;
+  }
+
+  .div-block-21 {
+    min-height: unset;
+    flex-direction: row;
+    gap: 1em;
+    flex-wrap: wrap;
+    max-width: unset;
+    margin-left: 4vw;
+  }
+
+  .link-rodrigoabreu {
+    text-align: start;
+    margin-left: unset;
+  }
+
+  .div-selos {
+    margin-left: 4vw;
+    min-width: unset;
+    min-height: unset;
+  }
+
+  .div-selos.aco img {
+    width: 20%;
+  }
+
+  .div-selos.aco {
+    justify-content: space-around;
+    margin-top: 6em;
+  }
+
+  .titulo.preto.aco {
+    margin-top: unset;
+  }
+
+  .button-7, .button-8{
+    min-width: unset;
+  }
+
+  .mapa {
+    padding: 2vw;
+  }
+}
+
+@media screen and (max-width: 315px) {
+  .heading-8 {
+    font-size: 16px;
+  }
+  .div-logo-verde img{
+    max-width: 100%;
+
+  }
 }
