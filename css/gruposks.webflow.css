@@ -103,6 +103,12 @@
   display: flex;
 }
 
+.phone-top a{
+  text-decoration: none;
+  color: white;
+}
+
+
 .email-top {
   max-width: 168px;
   color: #fff;
@@ -1883,6 +1889,10 @@
 .tab-link-tab-7,
 .tab-link-tab-8 {
   background-color: rgba(0, 0, 0, 0);
+}
+
+.w--current .tabs-nav-text {
+  color: #00b2a9;
 }
 
 .titulo-copy {
