@@ -9,7 +9,7 @@
   z-index: 100;
 }
 
-.sidebar-items{
+.sidebar-items {
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -334,7 +334,6 @@
 }
 
 .quadro-quemsomos {
-  max-height: 590px;
   max-width: 1360px;
   min-height: 590px;
   background-color: #000;
@@ -347,7 +346,7 @@
   min-height: 43px;
   color: #fff;
   flex-direction: column;
-  padding-top: 53px;
+  margin-top: 53px;
   margin-left: 4vw;
   font-family: Kastelov axiforma, Georgia, sans-serif;
   font-size: clamp(22px, 10vw, 42.13px);
@@ -372,22 +371,19 @@
   max-height: 362px;
   max-width: 512px;
   margin-top: 62px;
-  margin-left: 84px;
 }
 
 .paragraph {
   max-height: 331px;
   max-width: 652px;
-  min-height: 331px;
-  min-width: 671px;
   color: #fff;
   text-align: justify;
-  margin-top: 190px;
   margin-bottom: 0;
-  margin-left: -129px;
-  padding-left: 0;
   font-family: Kastelov axiforma, Georgia, sans-serif;
-  font-size: 17px;
+  margin-top: 1em;
+  margin-left: 4vw;
+  margin-right: 4vw;
+  font-size: clamp(15px, 1vw, 17px);
   font-weight: 400;
   line-height: 30.5px;
 }
@@ -427,11 +423,11 @@
   max-height: 98px;
   max-width: 1110px;
   min-height: 242px;
-  min-width: 1147px;
   color: #993535;
   text-align: center;
-  margin: 437px auto 0 -1209px;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 ._1957 {
@@ -486,7 +482,6 @@
 ._42k,
 ._3-6 {
   max-height: 119.71px;
-  margin-left: 200px;
 }
 
 .empresas {
@@ -538,7 +533,7 @@
   mix-blend-mode: normal;
   margin-top: 6px;
   font-family: Kastelov axiforma, Georgia, sans-serif;
-  font-size: 60px;
+  font-size: (22px, 1vw, 60px);
   font-weight: 700;
   line-height: 61px;
   transform: translate(0);
@@ -677,7 +672,6 @@
 }
 
 .div-block-6 {
-  min-width: 1440px;
   grid-column-gap: 16px;
   grid-row-gap: 16px;
   flex: 0 auto;
@@ -785,7 +779,6 @@
 }
 
 .div-block-7 {
-  max-height: 546px;
   max-width: 1440px;
   min-height: 283px;
   margin-left: auto;
@@ -832,12 +825,9 @@
 }
 
 .text-certifica {
-  max-height: 455px;
   max-width: 798px;
   min-height: 455px;
-  min-width: 798px;
   margin-top: 53px;
-  margin-left: 585px;
 }
 
 .paragraph-4 {
@@ -857,7 +847,6 @@
 }
 
 .img-contato {
-  max-height: 458px;
   min-height: 458px;
   background-image: url('../images/img_contato.png');
   background-position: 0 0;
@@ -865,12 +854,12 @@
   margin-top: 117px;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 20px;
 }
 
 .paragraph-5 {
   max-width: 1440px;
   min-height: 13px;
-  min-width: 1440px;
   color: #fff;
   text-align: center;
   margin-top: 16px;
@@ -2159,17 +2148,6 @@
     margin-right: auto;
   }
 
-  .dados {
-    min-width: 657px;
-    margin-left: -1274px;
-  }
-
-  ._1000k,
-  ._42k,
-  ._3-6 {
-    margin-left: 55px;
-  }
-
   .empresas {
     min-height: 752px;
   }
@@ -2182,7 +2160,6 @@
 
   .div-block-6 {
     min-height: 888px;
-    min-width: 771px;
     flex-direction: column;
     align-items: center;
   }
@@ -2205,19 +2182,21 @@
 
   .text-certifica {
     max-width: 657px;
-    min-height: 978px;
-    min-width: 667px;
-    margin-left: 50px;
+    margin-left: 4vw;
   }
 
   .img-contato {
     max-width: 773px;
+    margin-top: 40px;
   }
 
   .paragraph-5 {
     max-width: 657px;
-    min-width: 657px;
-    padding-top: 92px;
+    padding-top: 40px;
+  }
+
+  .enviar-index {
+    width: 100%;
   }
 
   .div-block-20 {
@@ -2296,10 +2275,6 @@
   .paragraph {
     min-width: 231px;
     font-size: 12px;
-  }
-
-  .dados {
-    min-width: 819px;
   }
 
   .container-6 {
@@ -2494,13 +2469,65 @@
   .nav-aco,
   .content-black,
   .bg-black,
-  .line-green {
+  .line-green,
+  .navbar {
     display: none;
   }
 
   .sidebar {
     display: unset;
   }
+
+  .quadro-quemsomos {
+    flex-direction: column;
+  }
+
+  .container-quemsomos {
+    top: unset;
+  }
+
+  .container-2 {
+    align-items: center;
+    height: 80%;
+  }
+
+  .container-2.direita {
+    align-items: center;
+  }
+
+  .paragraph-2.direita, .paragraph-3.direita {
+    text-align: start !important;
+  }
+
+  .w-slider-arrow-left,
+  .w-slider-arrow-right {
+    display: none;
+  }
+
+  .paragraph-3 {
+    margin: 0 4vw;
+  }
+
+  .heading-3.direita{
+    text-align: center;
+  }
+
+  .empresas {
+    margin-top: 0;
+  }
+
+  .mapa {
+    margin-top: 20px;
+  }
+
+  .direitos-reservados {
+    margin-top: 20px;
+  }
+
+  .div-block-24 {
+    padding-bottom: 20px;
+  }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -2554,7 +2581,8 @@
     margin-top: unset;
   }
 
-  .button-7, .button-8{
+  .button-7,
+  .button-8 {
     min-width: unset;
   }
 
@@ -2567,7 +2595,8 @@
   .heading-8 {
     font-size: 16px;
   }
-  .div-logo-verde img{
+
+  .div-logo-verde img {
     max-width: 100%;
 
   }
