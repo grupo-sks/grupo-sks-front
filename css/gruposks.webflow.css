@@ -1,6 +1,7 @@
 .certifica-div {
   display: flex;
   flex-direction: row-reverse;
+  gap: 5vw;
 }
 
 .titulo::after {
@@ -618,7 +619,6 @@
   background-position: 0 0;
   background-size: auto;
   margin-top: 44px;
-  margin-left: 15px;
 }
 
 .div-block-5 {
@@ -656,8 +656,6 @@
   background-position: 0 0;
   background-size: auto;
   margin-top: 44px;
-  margin-left: 15px;
-  margin-right: 15px;
 }
 
 .image-5 {
@@ -708,7 +706,7 @@
   background-position: 0 0;
   background-size: auto;
   margin-top: 44px;
-  margin-left: 15px;
+ 
 }
 
 .mineiracao {
@@ -720,7 +718,7 @@
   background-position: 0 0;
   background-size: auto;
   margin-top: 44px;
-  margin-left: 15px;
+
 }
 
 .image-6 {
@@ -794,10 +792,9 @@
 }
 
 .div-block-7 {
-  max-width: 1440px;
   min-height: 283px;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .div-block-7.nossosprodutos {
@@ -811,6 +808,11 @@
   min-width: 415px;
   background-color: rgba(143, 50, 50, 0);
   margin-left: 31px;
+  display: block;
+}
+
+.div-selos .titulo {
+  margin-left: unset;
 }
 
 .div-selos.aco {
@@ -926,6 +928,12 @@
 
 .contato {
   margin-top: 31px;
+  display: flex;
+  justify-content: center;
+}
+
+.dados-contato .titulo {
+  margin-left: unset;
 }
 
 .dados-contato {
@@ -935,23 +943,24 @@
   margin-top: 49px;
   margin-left: 4vw;
   display: flex;
+  flex-direction: column;
   width: 90%;
 }
 
 .mapa {
   max-height: 550px;
   max-width: 670px;
-  flex-direction: column-reverse;
+  justify-content: center;
+  flex-direction: column;
   margin-left: 198px;
-  display: block;
+  display: flex;
   margin-right: 58px;
 }
 
 .info-contato {
   margin-top: 55px;
   display: flex;
-  width: 100%;
-  justify-content: space-between;
+  gap: 5vw;
 }
 
 .text-field {
@@ -1316,7 +1325,8 @@
 .column-2 {
   max-height: 750px;
   background-color: #000;
-  justify-content: center;
+  justify-content: end;
+  padding-right: 14em;
   padding-left: 0;
   display: flex;
 }
@@ -2356,6 +2366,13 @@
   font-display: swap;
 }
 
+@media screen and (min-width: 1400px) {
+  .footer-footer .div-block-24 {
+    margin-left: 20%;
+  }
+}
+
+
 @media screen and (max-width: 1443px) {
   .div-selos.aco {
     display: flex;
@@ -2478,6 +2495,7 @@
   }
 
 }
+
 
 @media screen and (max-width: 992px) {
 
