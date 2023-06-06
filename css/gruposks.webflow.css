@@ -1,3 +1,11 @@
+.images {
+  margin-top: 20px;
+}
+
+.somos-2 {
+  margin-right: 1vw;
+}
+
 .certifica-div {
   display: flex;
   flex-direction: row-reverse;
@@ -706,7 +714,7 @@
   background-position: 0 0;
   background-size: auto;
   margin-top: 44px;
- 
+
 }
 
 .mineiracao {
@@ -812,7 +820,7 @@
 }
 
 .div-selos .titulo {
-  margin-left: unset;
+  margin-left: 22px;
 }
 
 .div-selos.aco {
@@ -845,6 +853,9 @@
   max-width: 798px;
   min-height: 455px;
   margin-top: 53px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 
 .paragraph-4 {
@@ -927,7 +938,6 @@
 }
 
 .contato {
-  margin-top: 31px;
   display: flex;
   justify-content: center;
 }
@@ -937,10 +947,8 @@
 }
 
 .dados-contato {
-  max-height: 550px;
   max-width: 500px;
-  justify-content: flex-start;
-  margin-top: 49px;
+  justify-content: space-around;
   margin-left: 4vw;
   display: flex;
   flex-direction: column;
@@ -948,9 +956,8 @@
 }
 
 .mapa {
-  max-height: 550px;
   max-width: 670px;
-  justify-content: center;
+  justify-content: flex-end;
   flex-direction: column;
   margin-left: 198px;
   display: flex;
@@ -958,9 +965,8 @@
 }
 
 .info-contato {
-  margin-top: 55px;
+  min-height: 700px;
   display: flex;
-  gap: 5vw;
 }
 
 .text-field {
