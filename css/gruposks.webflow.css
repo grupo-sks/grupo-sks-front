@@ -1,3 +1,10 @@
+.justify-content-center{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
 .images {
   margin-top: 20px;
 }
@@ -21,6 +28,7 @@
   bottom: -10px;
   right: -10px;
 }
+
 
 .div-block {
   background-color: #000;
@@ -1644,10 +1652,11 @@
 }
 
 .div-block-28 {
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   margin-top: 49px;
   display: flex;
+  gap: 5vw;
 }
 
 .container-8 {
@@ -1930,6 +1939,10 @@
   background-color: rgba(0, 0, 0, 0);
 }
 
+.hidden {
+  visibility: hidden;
+}
+
 .w--current .tabs-nav-text {
   color: #00b2a9;
 }
@@ -1938,13 +1951,21 @@
   max-height: 43px;
   min-height: 43px;
   color: #fff;
-  flex-direction: column;
-  margin-top: 53px;
-  margin-left: 51px;
   font-family: Kastelov axiforma, Georgia, sans-serif;
   font-size: clamp(22px, 10vw, 42.13px);
   font-weight: 600;
-  display: flex;
+  position: relative;
+  display: inline-block;
+}
+
+.titulo-copy::after {
+  content: '';
+  position: absolute;
+  width: 140px;
+  height: 6px;
+  background-color: #00b2a9;
+  bottom: -10px;
+  right: -10px;
 }
 
 .titulo-copy.preto {
@@ -1992,7 +2013,8 @@
   color: #fff;
   font-family: Kastelov axiforma, Georgia, sans-serif;
   font-size: 29px;
-  margin-left: 4vw;
+  max-width: 1400px;
+  width: 100%;
 }
 
 .paragraph-12 {
@@ -2002,6 +2024,7 @@
   font-weight: 500;
   line-height: 1em;
   margin: 0 4vw;
+  max-width: 1400px;
 }
 
 .div-block-30 {
