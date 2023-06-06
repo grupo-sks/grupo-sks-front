@@ -396,6 +396,8 @@
 
 .titulo.preto.aco {
   margin-top: 88px;
+  display: inline-block;
+  position: relative;
 }
 
 .titulo.preto.especificacoestelhas {
@@ -811,6 +813,9 @@
   min-height: 283px;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1400px;
 }
 
 .div-block-7.nossosprodutos {
