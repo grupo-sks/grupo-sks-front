@@ -1,4 +1,3 @@
-
 .justify-content-center {
   display: flex;
   justify-content: center;
@@ -2543,11 +2542,27 @@
   .div-block-37 {
     min-width: unset;
     margin-left: unset;
+    max-height: unset;
+    align-items: center;
   }
 
-  .image-33{
-    margin-left: unset;
+  .heading-12,
+  .heading-13 {
+    margin: 0 4vw;
+  }
+
+  .div-block-34 {
     margin-right: unset;
+  }
+
+  .div-block-38 {
+    margin-top: unset;
+  }
+
+
+  .image-33 {
+    margin: unset;
+    max-width: 200px;
   }
 
   .div-block-36 {
@@ -2562,22 +2577,22 @@
     right: 30px !important;
   }
 
-  .div-selos .titulo{
+  .div-selos .titulo {
     margin-left: unset;
   }
 
-  .column-2{
+  .column-2 {
     padding-right: unset;
     justify-content: start;
   }
-  
- .hidden {
-  display: none;
- }
 
- .div-selos.aco {
-  margin: unset !important;
- }
+  .hidden {
+    display: none;
+  }
+
+  .div-selos.aco {
+    margin: unset !important;
+  }
 
   .titulo {
     margin-bottom: 40px;
