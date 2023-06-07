@@ -1,3 +1,4 @@
+
 .justify-content-center {
   display: flex;
   justify-content: center;
@@ -816,7 +817,6 @@
   min-height: 283px;
   display: flex;
   justify-content: center;
-  flex-direction: column;
   align-items: center;
   max-width: 1400px;
 }
@@ -1967,6 +1967,7 @@
   font-weight: 600;
   position: relative;
   display: inline-block;
+  margin-left: 4vw;
 }
 
 .titulo-copy::after {
@@ -2025,7 +2026,7 @@
   font-family: Kastelov axiforma, Georgia, sans-serif;
   font-size: 29px;
   max-width: 1400px;
-  width: 100%;
+  width: 90%;
 }
 
 .paragraph-12 {
@@ -2538,6 +2539,24 @@
 
 
 @media screen and (max-width: 992px) {
+
+  .div-block-37 {
+    min-width: unset;
+    margin-left: unset;
+  }
+
+  .image-33{
+    margin-left: unset;
+    margin-right: unset;
+  }
+
+  .div-block-36 {
+    flex-direction: column;
+  }
+
+  .tabs-menu-wrapper {
+    justify-content: start;
+  }
 
   .titulo-contato::after {
     right: 30px !important;
