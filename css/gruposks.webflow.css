@@ -2539,6 +2539,19 @@
 
 @media screen and (max-width: 992px) {
 
+  .titulo-contato::after {
+    right: 30px !important;
+  }
+
+  .div-selos .titulo{
+    margin-left: unset;
+  }
+
+  .column-2{
+    padding-right: unset;
+    justify-content: start;
+  }
+  
  .hidden {
   display: none;
  }
