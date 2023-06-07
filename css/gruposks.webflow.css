@@ -815,8 +815,8 @@
 .div-block-7 {
   min-height: 283px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   max-width: 1400px;
 }
 
@@ -2025,7 +2025,7 @@
   font-family: Kastelov axiforma, Georgia, sans-serif;
   font-size: 29px;
   max-width: 1400px;
-  width: 90%;
+  width: 100%;
 }
 
 .paragraph-12 {
@@ -2410,6 +2410,21 @@
   .footer-footer .div-block-24 {
     margin-left: 20%;
   }
+
+  .heading-10,
+  .heading-11 {
+    margin-left: unset !important;
+  }
+
+  .titulo-copy {
+    margin-left: 20vw;
+  } 
+
+  .especificacoestelhas {
+    margin-left: 20vw;
+  }
+
+
 }
 
 
@@ -2536,8 +2551,24 @@
 
 }
 
+@media screen and (min-width: 992px) {
+  .div-block-7 {
+    justify-content: start;
+  }
+
+  .heading-10,
+  .heading-11 {
+    margin-left: 8vw;
+  }
+
+}
 
 @media screen and (max-width: 992px) {
+
+  .heading-10,
+  .heading-11 {
+    margin-left: 8vw !important;
+  }
 
   .div-block-37 {
     min-width: unset;
