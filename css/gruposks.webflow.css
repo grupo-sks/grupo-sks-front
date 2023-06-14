@@ -1,9 +1,9 @@
-.desc-certifica{
+.desc-certifica {
   max-width: 200px;
   text-align: center;
 }
 
-.div-images{
+.div-images {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1656,7 +1656,7 @@
 
 .div-logo-verde {
   max-height: 450px;
-  max-width: 1360px;
+  max-width: 500px;
   margin-top: 42px;
   display: flex;
 }
@@ -2007,7 +2007,7 @@
 }
 
 .images-aco img {
-  max-width: 45% !important;
+  max-width: 500px !important;
 }
 
 
@@ -2039,6 +2039,7 @@
   font-size: 29px;
   max-width: 1400px;
   width: 100%;
+  margin-bottom: unset;
 }
 
 .paragraph-12 {
@@ -2065,6 +2066,8 @@
   padding-bottom: 41px;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
   gap: 5vw;
 }
 
@@ -2082,7 +2085,6 @@
 
 .div-block-33 {
   max-height: 738px;
-  max-width: 665px;
   color: #00b2a9;
   background-color: #00b2a9;
 }
@@ -2091,10 +2093,9 @@
   background-color: rgba(0, 178, 169, 0);
 }
 
+
 .div-block-34 {
-  max-width: 665px;
   margin-left: 0;
-  margin-right: 39px;
 }
 
 .div-block-35 {
@@ -2126,6 +2127,7 @@
   margin-top: 43px;
   margin-bottom: 28px;
   display: flex;
+  gap: 1vw;
   justify-content: center;
 }
 
@@ -2136,7 +2138,6 @@
   min-width: 665px;
   background-color: #00b2a9;
   margin-bottom: 31px;
-  margin-left: 31px;
   display: flex;
 }
 
@@ -2425,13 +2426,17 @@
   }
 
   .titulo-copy {
-    margin-left: 20vw;
+    margin-left: 40px;
   }
 
   .especificacoestelhas {
     margin-left: 20vw;
   }
 
+  .titulo.preto.aco {
+    margin-left: 20vw;
+
+  }
 
 }
 
@@ -2571,6 +2576,10 @@
 }
 
 @media screen and (max-width: 992px) {
+  .titulo.preto.aco {
+    margin-left: 4vw;
+  }
+
 
   .heading-10,
   .heading-11 {
