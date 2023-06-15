@@ -1,3 +1,44 @@
+.images-empresas {
+  position: relative;
+}
+
+.images-empresas img{
+  max-width: 330px;
+}
+
+
+.btn-empresas {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  background-color: black;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.btn-empresas img {
+ width: 150px;
+ height: 100px;
+}
+
+
+.btn-empresas a {
+  margin: unset !important;
+}
+
+
+.img-telha {
+  max-width: 600px;
+}
+
+.image-especifica {
+  min-width: 300px;
+}
+
 .name-3 {
   margin-bottom: 0;
 }
@@ -659,16 +700,7 @@
   display: flex;
 }
 
-.empreendimentos {
-  height: auto;
-  max-height: 576px;
-  max-width: 365px;
-  min-height: 575px;
-  background-image: url('../images/EMPREENDIMENTOS.png');
-  background-position: 0 0;
-  background-size: auto;
-  margin-top: 44px;
-}
+
 
 .div-block-5 {
   max-height: 235px;
@@ -692,25 +724,6 @@
   margin-top: 105px;
 }
 
-.image-4 {
-  margin-top: 306px;
-  margin-left: 105px;
-}
-
-.a-o {
-  max-height: 576px;
-  max-width: 357px;
-  min-height: 575px;
-  background-image: url('../images/aco_novo.png');
-  background-position: 0 0;
-  background-size: auto;
-  margin-top: 44px;
-}
-
-.image-5 {
-  margin-top: 306px;
-  margin-left: 95px;
-}
 
 .buttonaco {
   max-height: 48px;
@@ -744,31 +757,12 @@
   margin-left: auto;
   margin-right: auto;
   display: flex;
+  padding-top: 44px;
+  padding-bottom: 44px;
+  flex-wrap: wrap;
 }
 
-.agro {
-  max-height: 576px;
-  max-width: 357px;
-  min-height: 575px;
-  min-width: auto;
-  background-image: url('../images/agro_novo.png');
-  background-position: 0 0;
-  background-size: auto;
-  margin-top: 44px;
 
-}
-
-.mineiracao {
-  max-height: 576px;
-  max-width: 5px;
-  min-height: 575px;
-  min-width: 357px;
-  background-image: url('../images/mineiracao_novo.png');
-  background-position: 0 0;
-  background-size: auto;
-  margin-top: 44px;
-
-}
 
 .image-6 {
   margin-top: 306px;
@@ -795,10 +789,7 @@
   background-color: #333f48;
 }
 
-.image-7 {
-  margin-top: 306px;
-  margin-left: 108px;
-}
+
 
 .buttonmineracao {
   max-height: 48px;
@@ -821,10 +812,7 @@
   background-color: #333f48;
 }
 
-.image-8 {
-  margin-top: 306px;
-  margin-left: 112px;
-}
+
 
 .certificacoes {
   margin-top: 74px;
@@ -2014,6 +2002,7 @@
 
 .images-aco img {
   max-width: 500px !important;
+  max-height: 300px;
 }
 
 
@@ -2087,10 +2076,10 @@
 }
 
 .div-block-33 {
-  max-height: 738px;
   color: #00b2a9;
   background-color: #00b2a9;
-  max-width: 500px;
+  max-width: 800px !important;
+  min-width: 500px;
 }
 
 .div-block-33._5 {
@@ -2100,11 +2089,11 @@
 
 .div-block-34 {
   margin-left: 0;
-  max-width: 500px;
 }
 
 .div-block-35 {
   background-color: #00b2a9;
+  max-width: 800px !important;
 }
 
 .div-block-35._5 {
@@ -2582,10 +2571,6 @@
     justify-content: start;
   }
 
-  .heading-10,
-  .heading-11 {
-    margin-left: 8vw;
-  }
 
 }
 
