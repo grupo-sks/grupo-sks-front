@@ -1,3 +1,7 @@
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
 .mt-58{
   margin-top: 58px !important;
 }
@@ -2652,6 +2656,7 @@
 @media screen and (max-width: 1170px) {
   .info-contato {
     flex-direction: column;
+    align-items: center;
   }
 
   .dados-contato {
@@ -2673,7 +2678,14 @@
   }
 
 }
-
+@media screen and (max-width: 1400px) {
+  .m-auto{
+    margin-left: 4vw !important;
+  }
+  .paragraphs{
+    margin: 0 4em !important;
+  }
+}
 
 @media screen and (max-width: 1130px) {
 
@@ -2683,6 +2695,8 @@
   .image-25 {
     margin-left: 0 !important;
   }
+
+
 }
 
 @media screen and (max-width: 1056px) {
@@ -2725,9 +2739,17 @@
 }
 
 @media screen and (max-width: 992px) {
+  .image-empresas-rodape{
+    max-width: 80px !important;
+    max-height: 50px;
+  }
+
+
+  
   .titulo.preto.aco {
     margin-left: 4vw;
   }
+  
 
 
   .heading-10,
