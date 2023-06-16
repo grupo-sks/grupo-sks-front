@@ -1,3 +1,19 @@
+.w-30{
+  width: 30% !important;
+}
+
+.gap-5{
+  gap: 5em;
+}
+
+.incidente-form{
+  padding: 4em 0;
+}
+
+.ml-0{
+  margin-left: 0 !important;
+}
+
 .mr-0{
   margin-right: 0 !important;
 }
@@ -54,6 +70,23 @@
   font-weight: 700;
   display: flex;
   color: #00b2a9;
+  padding: 0 2em;
+  margin-right: 15%;
+}
+.btn-etica-invertido {
+  max-height: 48px;
+  max-width: 350px;
+  min-height: 48px;
+  text-align: center;
+  background-color: #00b2a9;
+  border-radius: 15px;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Kastelov axiforma, Georgia, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  color: #ffffff;
   padding: 0 2em;
   margin-right: 15%;
 }
