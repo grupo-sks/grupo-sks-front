@@ -1,49 +1,67 @@
-.w-30{
+
+
+#dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(77, 77, 77, 0.97);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 933px;
+  height: 559px;
+  border: unset;
+}
+
+
+.w-30 {
   width: 30% !important;
 }
 
-.gap-5{
+.gap-5 {
   gap: 5em;
 }
 
-.incidente-form{
+.incidente-form {
   padding: 4em 0;
 }
 
-.ml-0{
+.ml-0 {
   margin-left: 0 !important;
 }
 
-.mr-0{
+.mr-0 {
   margin-right: 0 !important;
 }
 
-.text-center{text-align: center;}
+.text-center {
+  text-align: center;
+}
 
-.align-center{
+.align-center {
   align-items: center;
 }
 
-.mr-15{
+.mr-15 {
   margin-right: 15%;
 }
 
-.flex-wrap{
+.flex-wrap {
   flex-wrap: wrap;
 }
 
-.mt-58{
+.mt-58 {
   margin-top: 58px !important;
 }
 
-.gap-3{
+.gap-3 {
   gap: 3em;
 }
-.gap-2{
+
+.gap-2 {
   gap: 2em;
 }
 
-.image-empresas-rodape{
+.image-empresas-rodape {
   max-width: 170px;
   height: 93px;
 }
@@ -73,6 +91,7 @@
   padding: 0 2em;
   margin-right: 15%;
 }
+
 .btn-etica-invertido {
   max-height: 48px;
   max-width: 350px;
@@ -99,6 +118,17 @@
   bottom: -10px;
   right: 0;
   background: #FFFFFF;
+}
+
+.after-green::after {
+  content: '';
+  position: absolute;
+  width: 165px;
+  height: 7px;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #00b2a9;
 }
 
 .fs-17 {
@@ -2724,11 +2754,13 @@
   }
 
 }
+
 @media screen and (max-width: 1400px) {
-  .m-auto{
+  .m-auto {
     margin-left: 4vw !important;
   }
-  .paragraphs{
+
+  .paragraphs {
     margin: 0 4em !important;
   }
 }
@@ -2785,17 +2817,19 @@
 }
 
 @media screen and (max-width: 992px) {
-  .image-empresas-rodape{
+  .image-empresas-rodape {
     max-width: 80px !important;
     max-height: 50px;
   }
 
+  .w-30 {
+    width: 100% !important;
+  }
 
-  
   .titulo.preto.aco {
     margin-left: 4vw;
   }
-  
+
 
 
   .heading-10,
