@@ -91,61 +91,52 @@
     </div>
   </div>
 
-  <div class="etica-dobra-verde">
-    <div class="d-flex m-auto flex-column gap-4">
-      <h1 class="h1-etica after-white">Canal de Ética</h1>
+  <div class="m-auto ">
+    <h1 class="titulo preto ml-0">Status do Incidente</h1>
 
-      <div class="d-flex justify-between align-center flex-wrap">
-        <p class="text-white fs-17">Para criar um novo incidente, preencha os campos obrigatórios a seguir para <br> que
-          possamos realizar a devida investigação. Inclua todos os detalhes do <br> ocorrido incluindo, unidade, data,
-          hora,
-          pessoas envolvidas e qualquer outra <br> informação que possa nos ajudar a compreender a situação relatada. O
-          <br> Grupo
-          SKS tratará com o máximo sigilo, seriedade e cautela os relatos aqui <br> registrados. Todos os esforços serão
-          empregados para garantir a <br> confidencialidade e o anonimato.
-        </p>
-        <div class="d-flex flex-column mr-15">
-          <p class="text-white fs-17 text-center">Para consultar o seu incidente,<br>clique no botão abaixo</p>
-          <button class="btn-etica mr-0">CONSULTAR INCIDENTE</button>
+    <div class="d-flex flex-column mt-58 justify-center align-center">
+      <div class="quadro-incidente-status d-flex flex-column align-center">
+        <h1 class="titulo preto ml-0 fs-27">Informações do Incidente</h1>
+        <div class="d-flex gap-3 mt-58 justify-center">
+          <img src="./images/status-incidente-logo.svg" alt="">
+          <div class="d-flex flex-column gap-2">
+            <span>Nome: <span id="name-incidente"></span></span>
+            <span>Email: <span id="email-incidente"></span></span>
+            <span>Ramal: <span id="ramal-incidente"></span></span>
+            <span>Empresa: <span id="empresa-incidente"></span></span>
+            <span>Assunto: <span id="assunto-incidente"></span></span>
+          </div>
         </div>
+        <h1 class="titulo preto ml-0 fs-27 mt-58">Mensagens do Incidente</h1>
+        <div class="d-flex gap-5 mt-58 justify-between ps-5 pe-5">
+          <div>
+            <h5>Mensagens</h5>
+          </div>
+          <div>
+            <h5>Data de envio</h5>
+          </div>
+          <div>
+            <h5>Enviado Por</h5>
+          </div>
+          <div>
+            <h5>Visualizar</h5>
+            <img src="images/eye-incidente-logo.svg" alt="">
+          </div>
+        </div>
+        <button type="submit" class="btn-etica-invertido mr-0 mt-58">ADICIONAR NOVA MENSAGEM</button>
+
       </div>
-    </div>
-  </div>
 
-  <div class="m-auto incidente-form">
-    <h1 class="titulo preto ml-0">Formulário de Incidente</h1>
+      <div class="d-flex flex-column mt-58">
+        <h1 class="titulo preto ml-0">Nova Mensagem</h1>
+        <form action="" class="d-flex flex-column align-center mt-58">
+          <div>
+            <label for="email-2" class="field-label ">Adicione uma nova mensagem ao incidente
+            </label>
+            <textarea rows="6" required class="text-field-2 w-input mw-430 " placeholder="Insira sua mensagem"></textarea>
+          </div>
+          <button type="submit" class="btn-etica-invertido mr-0 mt-2em">ENVIAR MENSAGEM</button>
 
-    <div class="d-flex mt-58 gap-5 flex-wrap ">
-      <img src="images/incidente-form.png" alt="preenchendo formulario de incidente">
-      <div class="w-form w-30">
-        <form id="incidente-form" name="incidente-form" method="get">
-          <label for="name" class="field-label">Empresa (Campo Obrigatório)</label>
-          <select required class="text-field-2 w-input" name="" id="">
-            <option value="inválida">Selecione uma categoria</option>
-            <option value="empreendimentos">Empreendimentos</option>
-            <option value="agro">Agro</option>
-            <option value="mineracao">Mineração</option>
-            <option value="aco">Aço</option>
-          </select>
-
-          <label for="email-2" class="field-label">Assunto (Campo Obrigatório)</label>
-          <input type="text" class="text-field-2 w-input" maxlength="256" name="email-2" data-name="Email 2"
-            placeholder="Insira um assunto" id="email-2" required>
-
-          <label for="email" class="field-label">Mensagem (Campo Obrigatório)</label>
-          <textarea required placeholder="Insira sua mensagem" class="text-field-2 w-input" name="" id="" cols="30"
-            rows="10"></textarea>
-
-          <label for="email-2" class="field-label">Nome: </label>
-          <input class="text-field-2 w-input" placeholder="Insira seu nome">
-
-          <label for="email-2" class="field-label">Email: </label>
-          <input class="text-field-2 w-input" placeholder="Insira seu email">
-
-          <label for="email-2" class="field-label">Ramal: </label>
-          <input class="text-field-2 w-input" placeholder="Insira seu ramal">
-
-          <button type="submit" data-wait="Please wait..." class="btn-etica-invertido">ENVIAR INCIDENTE</button>
         </form>
       </div>
     </div>
@@ -196,28 +187,6 @@
       </div>
     </div>
   </div>
-
-  <dialog open id="dialog">
-    <div class="d-flex flex-column align-center">
-      <h1 class="h1-etica after-green text-center">Consultar incidente</h1>
-
-      <p class="text-white fs-17 text-center mt-3em">
-        Após inserir o código no campo abaixo, você terá acesso ao status do <br> incidente, tendo
-        total liberdade de nos responder ou nos dar mais detalhes do <br> ocorrido, caso necessário.
-      </p>
-
-      <form method="dialog" class="d-flex flex-column align-center mt-2em">
-        <div class="w-100 d-flex flex-column align-center">
-          <label for="email-2" class="field-label text-white text-center">Código: </label>
-          <input required class="text-field-2 w-input mw-430 text-center" placeholder="Insira o código da consulta">
-        </div>
-        <p class="text-white fs-17 text-center mt-2em">
-          Para consultar o seu incidente clique no botão abaixo
-        </p>
-        <button type="submit" class="btn-etica-invertido mr-0">ENVIAR CÓDIGO</button>
-      </form>
-    </div>
-  </dialog>
 
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6441962c04b5eb83db0f1d92"
     type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
