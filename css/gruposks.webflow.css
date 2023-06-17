@@ -1,4 +1,14 @@
+.mw-430 {
+  max-width: 430px;
+}
 
+.mt-3em {
+  margin-top: 3em;
+}
+
+.mt-2em {
+  margin-top: 2em;
+}
 
 #dialog {
   position: fixed;
@@ -7,9 +17,10 @@
   transform: translate(-50%, -50%);
   background: rgba(77, 77, 77, 0.97);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  width: 933px;
-  height: 559px;
   border: unset;
+  min-width: 200px;
+  width: 900px;
+  padding: 60px 0;
 }
 
 
@@ -675,7 +686,7 @@
   margin-top: 53px;
   margin-left: 4vw;
   font-family: Kastelov axiforma, Georgia, sans-serif;
-  font-size: clamp(22px, 9vw, 42.13px);
+  font-size: clamp(22px, 7vw, 42.13px);
   font-weight: 600;
   display: inline-block;
   position: relative;
@@ -2814,6 +2825,12 @@
   }
 
 
+}
+
+@media screen and (max-width: 1292px) {
+  .w-30 {
+    width: 60% !important;
+  }
 }
 
 @media screen and (max-width: 992px) {
