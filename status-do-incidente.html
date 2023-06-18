@@ -111,29 +111,33 @@
         <div class="d-flex gap-5 mt-58 justify-between ps-5 pe-5">
           <div>
             <h5>Mensagens</h5>
+            <div id="messages"></div>
           </div>
           <div>
             <h5>Data de envio</h5>
+            <div id="createdAt"></div>
           </div>
           <div>
             <h5>Enviado Por</h5>
+            <div id="sendedBy"></div>
           </div>
           <div>
             <h5>Visualizar</h5>
-            <img src="images/eye-incidente-logo.svg" alt="">
+            <div id="eye-img">
+            </div>
           </div>
         </div>
-        <button type="submit" class="btn-etica-invertido mr-0 mt-58">ADICIONAR NOVA MENSAGEM</button>
+        <button onclick="showNewMessageDiv()" type="button" class="btn-etica-invertido mr-0 mt-58">ADICIONAR NOVA MENSAGEM</button>
 
       </div>
 
-      <div class="d-flex flex-column mt-58">
+      <div id="nova-mensagem" class="d-flex flex-column mt-58">
         <h1 class="titulo preto ml-0">Nova Mensagem</h1>
-        <form action="" class="d-flex flex-column align-center mt-58">
+        <form id="new-message-form" class="d-flex flex-column align-center mt-58">
           <div>
             <label for="email-2" class="field-label ">Adicione uma nova mensagem ao incidente
             </label>
-            <textarea rows="6" required class="text-field-2 w-input mw-430 " placeholder="Insira sua mensagem"></textarea>
+            <textarea id="message-textarea" rows="6" required class="text-field-2 w-input mw-430" placeholder="Insira sua mensagem"></textarea>
           </div>
           <button type="submit" class="btn-etica-invertido mr-0 mt-2em">ENVIAR MENSAGEM</button>
 

@@ -1,15 +1,31 @@
-.ps-5{
+#eye-img {
+  display: flex;
+  flex-direction: column;
+  width: 30px;
+}
+
+#eye-img img{
+  margin-bottom: 10px;
+}
+
+
+#nova-mensagem {
+  display: none;
+}
+
+.ps-5 {
   padding-left: 5em;
 }
-.pe-5{
+
+.pe-5 {
   padding-right: 5em;
 }
 
-.fs-27{
+.fs-27 {
   font-size: 27px !important;
 }
 
-.quadro-incidente-status{
+.quadro-incidente-status {
   background: rgba(217, 217, 217, 0.23);
   padding-bottom: 58px;
 }
@@ -96,6 +112,7 @@
 .justify-center {
   justify-content: center;
 }
+
 .justify-between {
   justify-content: space-between;
 }
