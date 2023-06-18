@@ -1,7 +1,7 @@
 #eye-img {
   display: flex;
   flex-direction: column;
-  width: 30px;
+  width: 20px;
 }
 
 #eye-img img{

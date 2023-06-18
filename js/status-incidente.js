@@ -39,6 +39,7 @@ window.addEventListener('load', async () => {
         let img = document.createElement('img');
         img.src = 'images/eye-incidente-logo.svg';
         img.alt = '';
+        img.addEventListener('click', () => viewMessage(id))
         eyeImg.appendChild(img);
 
         let messageParagraph = document.createElement('p');
@@ -75,3 +76,7 @@ newMessageForm.addEventListener('submit', async (e) => {
 
     location.reload()
 })
+
+function viewMessage(id) {
+    console.log(id)
+}
