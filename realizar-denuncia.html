@@ -60,7 +60,7 @@
           <div class="w-nav-button">
             <div class="w-icon-nav-menu"></div>
           </div>
-          <a href="#" class="brand w-nav-brand"><img src="images/LOGO-HORIZONTAL.png" loading="lazy" alt=""></a>
+          <a href="index.html" class="brand w-nav-brand"><img src="images/LOGO-HORIZONTAL.png" loading="lazy" alt=""></a>
           <nav role="navigation" class="nav-menu w-nav-menu">
             <a href="/#quemsomos" class="menu w-nav-link">QUEM SOMOS</a>
             <a href="/#empresas" class="menu w-nav-link">EMPRESAS</a>
@@ -77,7 +77,7 @@
   <div class="sidebar">
     <img class="sidebar-btn" src="./images/menu.png" alt="menu.png">
     <div class="sidebar-items">
-      <a href="#" class="brand w-nav-brand">
+      <a href="index.html" class="brand w-nav-brand">
         <img src="images/LOGO-HORIZONTAL.png" loading="lazy" alt="">
       </a>
       <a href="/#quemsomos" class="menu w-nav-link">QUEM SOMOS</a>
@@ -106,7 +106,7 @@
         </p>
         <div class="d-flex flex-column mr-15">
           <p class="text-white fs-17 text-center">Para consultar o seu incidente,<br>clique no botão abaixo</p>
-          <button class="btn-etica mr-0">CONSULTAR INCIDENTE</button>
+          <button onclick="showModal()" class="btn-etica mr-0">CONSULTAR INCIDENTE</button>
         </div>
       </div>
     </div>
@@ -120,30 +120,30 @@
       <div class="w-form w-30">
         <form id="incidente-form" name="incidente-form" method="get">
           <label for="name" class="field-label">Empresa (Campo Obrigatório)</label>
-          <select required class="text-field-2 w-input" name="" id="">
+          <select required class="text-field-2 w-input" name="" id="empresa-select">
             <option value="inválida">Selecione uma categoria</option>
-            <option value="empreendimentos">Empreendimentos</option>
-            <option value="agro">Agro</option>
-            <option value="mineracao">Mineração</option>
-            <option value="aco">Aço</option>
+            <option value="Empreendimentos">Empreendimentos</option>
+            <option value="Agro">Agro</option>
+            <option value="Mineração">Mineração</option>
+            <option value="Aço">Aço</option>
           </select>
 
           <label for="email-2" class="field-label">Assunto (Campo Obrigatório)</label>
           <input type="text" class="text-field-2 w-input" maxlength="256" name="email-2" data-name="Email 2"
-            placeholder="Insira um assunto" id="email-2" required>
+            placeholder="Insira um assunto" id="assunto" required>
 
           <label for="email" class="field-label">Mensagem (Campo Obrigatório)</label>
-          <textarea required placeholder="Insira sua mensagem" class="text-field-2 w-input" name="" id="" cols="30"
+          <textarea required placeholder="Insira sua mensagem" class="text-field-2 w-input" name="" id="mensagem" cols="30"
             rows="10"></textarea>
 
           <label for="email-2" class="field-label">Nome: </label>
-          <input class="text-field-2 w-input" placeholder="Insira seu nome">
+          <input id="nome" class="text-field-2 w-input" placeholder="Insira seu nome">
 
           <label for="email-2" class="field-label">Email: </label>
-          <input class="text-field-2 w-input" placeholder="Insira seu email">
+          <input id="email" class="text-field-2 w-input" placeholder="Insira seu email">
 
           <label for="email-2" class="field-label">Ramal: </label>
-          <input class="text-field-2 w-input" placeholder="Insira seu ramal">
+          <input  id="ramal"class="text-field-2 w-input" placeholder="Insira seu ramal">
 
           <button type="submit" data-wait="Please wait..." class="btn-etica-invertido">ENVIAR INCIDENTE</button>
         </form>
@@ -209,7 +209,7 @@
       <form id="modal-form" method="dialog" class="d-flex flex-column align-center mt-2em">
         <div class="w-100 d-flex flex-column align-center">
           <label for="email-2" class="field-label text-white text-center">Código: </label>
-          <input required class="text-field-2 w-input mw-430 text-center" placeholder="Insira o código da consulta">
+          <input id="code-incidente" required class="text-field-2 w-input mw-430 text-center" placeholder="Insira o código da consulta">
         </div>
         <p class="text-white fs-17 text-center mt-2em">
           Para consultar o seu incidente clique no botão abaixo

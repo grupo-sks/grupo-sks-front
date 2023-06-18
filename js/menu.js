@@ -8,8 +8,6 @@ sidebarBtn.addEventListener('click', function () {
 document.addEventListener('click', function (event) {
     const targetElement = event.target;
 
-    console.log(targetElement)
-
     if (!sidebarItems.contains(targetElement) && !sidebarBtn.contains(targetElement)) {
         sidebarItems.classList.remove('active-sidebar');
     }
