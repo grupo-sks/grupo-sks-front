@@ -16,7 +16,7 @@ const id = urlParams.get('id');
 
 window.addEventListener('load', async () => {
 
-    const response = await fetch(`http://localhost:3333/chats/${id}`,
+    const response = await fetch(`https://ethic-channel-sks.vercel.app/chats/${id}`,
         {
             headers: { 'Content-Type': 'application/json' },
             method: 'GET'
@@ -64,7 +64,7 @@ function showNewMessageDiv() {
 newMessageForm.addEventListener('submit', async (e) => {
     e.preventDefault()
 
-    const response = await fetch(`http://localhost:3333/message/${id}`,
+    const response = await fetch(`https://ethic-channel-sks.vercel.app/message/${id}`,
         {
             headers: { 'Content-Type': 'application/json' },
             method: 'POST',

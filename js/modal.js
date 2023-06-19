@@ -14,7 +14,7 @@ incidenteForm.addEventListener('submit', async () => {
         return alert('Escolha uma empresa válida')
     }
 
-    const response = await fetch('http://localhost:3333/chats',
+    const response = await fetch('https://ethic-channel-sks.vercel.app/chats',
         {
             headers: {
                 'Content-Type': 'application/json'
@@ -44,7 +44,7 @@ incidenteForm.addEventListener('submit', async () => {
 modalForm.addEventListener('submit', async (e) => {
     e.preventDefault()
 
-    const response = await fetch(`http://localhost:3333/chats/${code.value}`,
+    const response = await fetch(`https://ethic-channel-sks.vercel.app/chats/${code.value}`,
         {
             headers: { 'Content-Type': 'application/json' },
             method: 'GET'
