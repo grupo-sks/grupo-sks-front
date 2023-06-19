@@ -1,3 +1,8 @@
+.m-auto-1400{
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
 #eye-img {
   display: flex;
   flex-direction: column;
@@ -2267,9 +2272,6 @@
   color: #fff;
 }
 
-.image-32 {
-  max-width: 64%;
-}
 
 .images-aco {
   width: 100%;
@@ -2277,10 +2279,6 @@
   justify-content: center;
 }
 
-.images-aco img {
-  max-width: 500px !important;
-  max-height: 300px;
-}
 
 
 .image-32._5 {
@@ -2875,6 +2873,10 @@
     max-height: 50px;
   }
 
+  .div-block-33{
+    min-width: unset;
+  }
+
   .w-30 {
     width: 100% !important;
   }
@@ -2887,7 +2889,8 @@
 
   .heading-10,
   .heading-11 {
-    margin-left: 8vw !important;
+    display: inline;
+    margin-left: 4vw !important;
   }
 
   .div-block-37 {
