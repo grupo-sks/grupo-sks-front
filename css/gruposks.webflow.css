@@ -1,3 +1,21 @@
+.agro-videos{
+  background-color: #eaeaea;
+  padding-bottom: 58px;
+}
+
+.text-black{
+  color: black !important;
+}
+
+.lista-beneficios{
+  line-height: 1.6em;
+  margin-left: 4em;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
 .m-auto-1400{
   max-width: 1400px;
   margin: 0 auto;
@@ -725,7 +743,6 @@
   color: #fff;
   flex-direction: column;
   margin-top: 53px;
-  margin-left: 4vw;
   font-family: Kastelov axiforma, Georgia, sans-serif;
   font-size: clamp(22px, 7vw, 42.13px);
   font-weight: 600;
@@ -2255,7 +2272,6 @@
   font-weight: 600;
   position: relative;
   display: inline-block;
-  margin-left: 4vw;
 }
 
 .titulo-copy::after {
@@ -2703,9 +2719,6 @@
     margin-left: unset !important;
   }
 
-  .titulo-copy {
-    margin-left: 40px;
-  }
 
   .especificacoestelhas {
     margin-left: 13vw;
