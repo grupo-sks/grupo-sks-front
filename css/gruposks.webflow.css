@@ -1,3 +1,11 @@
+.justify-unset{
+  justify-content: unset !important;
+}
+
+.titulo-quem-somos{
+  margin-left: 4vw;
+}
+
 .agro-videos{
   background-color: #eaeaea;
   padding-bottom: 58px;
