@@ -1,3 +1,7 @@
+.justify-around{
+  justify-content: space-around;
+}
+
 .justify-unset{
   justify-content: unset !important;
 }
