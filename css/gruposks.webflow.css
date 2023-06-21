@@ -1,3 +1,7 @@
+.bg-transparent {
+  background-color: transparent !important;
+}
+
 .justify-around{
   justify-content: space-around;
 }
