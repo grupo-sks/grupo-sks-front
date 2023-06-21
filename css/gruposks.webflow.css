@@ -1,3 +1,7 @@
+.font-bold{
+  font-weight : bold !important;
+}
+
 .mt-0{
   margin-top: 0 !important;
 }
@@ -809,7 +813,7 @@
   color: #fff;
   text-align: justify;
   margin-bottom: 0;
-  font-family: Kastelov axiforma, Georgia, sans-serif;
+  font-family: Axiforma Book, Georgia, sans-serif;
   margin-top: 2em;
   margin-left: 4vw;
   margin-right: 4vw;
@@ -1990,7 +1994,7 @@
   max-width: 668px;
   color: #fff;
   text-align: justify;
-  font-family: Kastelov axiforma, Georgia, sans-serif;
+  font-family: Axiforma Book, Georgia, sans-serif;
   font-size: 17px;
   font-weight: 500;
 }
@@ -2361,7 +2365,7 @@
 
 .paragraph-12 {
   color: #fff;
-  font-family: Kastelov axiforma, Georgia, sans-serif;
+  font-family: Axiforma Book, Georgia, sans-serif;
   font-size: clamp(16px, 18px, 23px);
   font-weight: 500;
   line-height: 30px;
@@ -2677,6 +2681,14 @@
   }
 }
 
+
+@font-face {
+  font-family: 'Axiforma Book';
+  src: url('../fonts/Axiforma-book.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
 
 @font-face {
   font-family: 'Kastelov axiforma';
