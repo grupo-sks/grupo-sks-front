@@ -2022,7 +2022,8 @@
   align-items: center;
   padding: .7em 0;
   display: flex;
-  justify-content: center;
+  max-width: 1400px !important;
+  margin: 0 auto;
 }
 
 .tabs-content-wrapper {
