@@ -1,3 +1,19 @@
+.mt-0{
+  margin-top: 0 !important;
+}
+
+.video{
+  border: none;
+}
+
+.paragrafo-remineralizador{
+  line-height: 30px !important;
+}
+
+.mw-1360 {
+  max-width: 1360px !important;
+}
+
 .bg-transparent {
   background-color: transparent !important;
 }
@@ -33,7 +49,7 @@
 }
 
 .m-auto-1400{
-  max-width: 1400px;
+  max-width: 1400px !important;
   margin: 0 auto;
 }
 
@@ -1276,7 +1292,7 @@
 
 .contato {
   display: flex;
-  max-width: 1440px;
+  max-width: 1360px;
   margin: 0 auto;
 }
 
@@ -1297,16 +1313,17 @@
   max-width: 670px;
   justify-content: flex-end;
   flex-direction: column;
-  margin-left: 198px;
   display: flex;
   margin-right: 58px;
+  margin-bottom: 50px;
 }
 
 .info-contato {
   min-height: 700px;
   display: flex;
   width: 100%;
-  justify-content: center;
+  margin-left: 4vw;
+  gap: 2em;
 }
 
 .text-field {
@@ -1966,7 +1983,6 @@
 .div-logo-verde {
   max-height: 450px;
   max-width: 500px;
-  margin-top: 42px;
   display: flex;
 }
 
@@ -1986,7 +2002,6 @@
 .div-block-28 {
   justify-content: center;
   align-items: center;
-  margin-top: 49px;
   display: flex;
   gap: 5vw;
 }
@@ -2349,7 +2364,7 @@
   font-family: Kastelov axiforma, Georgia, sans-serif;
   font-size: clamp(16px, 18px, 23px);
   font-weight: 500;
-  line-height: 1em;
+  line-height: 30px;
   max-width: 1400px;
 }
 
@@ -2399,7 +2414,6 @@
 
 .div-block-35 {
   background-color: #00b2a9;
-  max-width: 800px !important;
 }
 
 .div-block-35._5 {
