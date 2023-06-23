@@ -1,3 +1,8 @@
+svg{
+  width: 56px;
+  height: 56px;
+}
+
 .w-fit{
   width: fit-content;
 }
@@ -1307,6 +1312,7 @@
   font-weight: 700;
   text-decoration: none;
   display: flex;
+  padding-bottom: 1px;
 }
 
 .button-4:hover {
@@ -1339,7 +1345,6 @@
 }
 
 .info-contato {
-  min-height: 700px;
   display: flex;
   width: 100%;
   margin-left: 4vw;
