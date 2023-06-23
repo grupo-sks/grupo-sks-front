@@ -1,16 +1,24 @@
-.font-bold{
-  font-weight : bold !important;
+.fs-22{
+  font-size: 22px;
 }
 
-.mt-0{
+.font-book {
+  font-family: Axiforma Book, Georgia, sans-serif;
+}
+
+.font-bold {
+  font-weight: bold !important;
+}
+
+.mt-0 {
   margin-top: 0 !important;
 }
 
-.video{
+.video {
   border: none;
 }
 
-.paragrafo-remineralizador{
+.paragrafo-remineralizador {
   line-height: 30px !important;
 }
 
@@ -22,37 +30,37 @@
   background-color: transparent !important;
 }
 
-.justify-around{
+.justify-around {
   justify-content: space-around;
 }
 
-.justify-unset{
+.justify-unset {
   justify-content: unset !important;
 }
 
-.titulo-quem-somos{
+.titulo-quem-somos {
   margin-left: 4vw;
 }
 
-.agro-videos{
+.agro-videos {
   background-color: #eaeaea;
   padding-bottom: 58px;
 }
 
-.text-black{
+.text-black {
   color: black !important;
 }
 
-.lista-beneficios{
+.lista-beneficios {
   line-height: 1.6em;
   margin-left: 4em;
 }
 
-.justify-center{
+.justify-center {
   justify-content: center;
 }
 
-.m-auto-1400{
+.m-auto-1400 {
   max-width: 1400px !important;
   margin: 0 auto;
 }
@@ -63,7 +71,7 @@
   width: 20px;
 }
 
-#eye-img img{
+#eye-img img {
   margin-bottom: 10px;
 }
 
@@ -371,7 +379,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: end;
 }
 
 .div-images img {
@@ -2928,7 +2935,7 @@
     max-height: 50px;
   }
 
-  .div-block-33{
+  .div-block-33 {
     min-width: unset;
   }
 
