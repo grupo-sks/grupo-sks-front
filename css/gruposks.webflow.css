@@ -1,21 +1,25 @@
-svg{
+.pl-0 {
+  padding-left: 0 !important;
+}
+
+svg {
   width: 56px;
   height: 56px;
 }
 
-.w-fit{
+.w-fit {
   width: fit-content;
 }
 
-.pb-58{
+.pb-58 {
   padding-bottom: 58px;
 }
 
-.gap-1{
+.gap-1 {
   gap: 1em;
 }
 
-.fs-22{
+.fs-22 {
   font-size: 22px;
 }
 
@@ -1999,7 +2003,6 @@ svg{
 }
 
 .verde_all_aco {
-  max-height: 562px;
   max-width: 100%;
   min-height: 463px;
   background-color: #00b2a9;
@@ -2576,7 +2579,7 @@ svg{
 
   .div-block-6 {
     min-height: 888px;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
   }
 
@@ -2886,6 +2889,46 @@ svg{
   }
 }
 
+@media screen and (max-width: 1360px) {
+  .navbar {
+    margin-left: 4vw;
+    margin-right: 4vw;
+  }
+
+  .button-navbar {
+    margin-left: 0;
+  }
+
+  .content-black {
+    margin-left: 4vw;
+    margin-right: 4vw;
+  }
+
+  .contato {
+    margin: 0 4vw;
+  }
+
+  .m-auto {
+    margin: 0 4vw !important;
+  }
+
+  .nossas-certificacoes {
+    margin: 0 4vw !important;
+  }
+
+}
+
+@media screen and (max-width: 1240px) {
+  body>div.menu-top>div.slider.w-slider>div.navbar.w-nav>div.container.w-container>a {
+    width: 160px;
+    margin-top: 22px;
+  }
+
+
+}
+
+
+
 @media screen and (max-width: 1130px) {
 
   .image-22,
@@ -2937,6 +2980,15 @@ svg{
 
 }
 
+@media screen and (max-width: 630px) {
+
+
+  .list-agro{
+    gap: 1em;
+    justify-content: center;
+  }
+}
+
 @media screen and (max-width: 1292px) {
   .w-30 {
     width: 60% !important;
@@ -2951,6 +3003,10 @@ svg{
 
   .div-block-33 {
     min-width: unset;
+  }
+
+  .somos-2 {
+    margin-left: 4vw;
   }
 
   .w-30 {
