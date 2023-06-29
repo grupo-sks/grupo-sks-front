@@ -1,3 +1,11 @@
+.lh-24{
+  line-height: 24px !important;
+}
+
+.ml-4vw{
+  margin-left: 4vw;
+}
+
 .pl-0 {
   padding-left: 0 !important;
 }
@@ -2464,10 +2472,10 @@ svg {
   text-align: center;
   font-family: Kastelov axiforma, Georgia, sans-serif;
   font-size: 29px;
+  margin-bottom: 0;
 }
 
 .div-block-36 {
-  margin-top: 43px;
   margin-bottom: 28px;
   display: flex;
   gap: 1vw;
@@ -2790,10 +2798,6 @@ svg {
     margin-left: 13vw;
   }
 
-  .titulo.preto.aco {
-    margin-left: 13vw;
-
-  }
 
 }
 
