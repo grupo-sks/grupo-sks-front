@@ -1,8 +1,16 @@
-.lh-24{
+.mobile {
+  display: none;
+}
+
+.br-mobile {
+  display: none;
+}
+
+.lh-24 {
   line-height: 24px !important;
 }
 
-.ml-4vw{
+.ml-4vw {
   margin-left: 4vw;
 }
 
@@ -783,7 +791,14 @@ svg {
 
 .slide-6 {
   background-color: #00b2a9;
-  background-image: url('../images/banner2.jpg');
+  background-image: url('../images/aco-banner.png');
+  background-position: 0 0;
+  background-size: auto;
+}
+
+.slide-8 {
+  background-color: #00b2a9;
+  background-image: url('../images/empreendimentos-banner.png');
   background-position: 0 0;
   background-size: auto;
 }
@@ -2987,7 +3002,7 @@ svg {
 @media screen and (max-width: 630px) {
 
 
-  .list-agro{
+  .list-agro {
     gap: 1em;
     justify-content: center;
   }
@@ -3138,14 +3153,17 @@ svg {
     align-items: center;
   }
 
-  .paragraph-2.direita,
-  .paragraph-3.direita {
+  .paragraph-2.direita {
     text-align: start !important;
+  }
+
+  .paragraph-3.direita {
+    text-align: end !important;
   }
 
   .w-slider-arrow-left,
   .w-slider-arrow-right {
-    display: none;
+    /* display: none; */
   }
 
   .paragraph-3 {
@@ -3159,10 +3177,6 @@ svg {
 
   .text-certifica {
     margin-top: unset;
-  }
-
-  .heading-3.direita {
-    text-align: center;
   }
 
   .empresas {
@@ -3242,6 +3256,8 @@ svg {
   .mapa {
     padding: 2vw;
   }
+
+
 }
 
 @media screen and (max-width: 315px) {
@@ -3253,4 +3269,70 @@ svg {
     max-width: 100%;
 
   }
+}
+
+@media screen and (max-width: 600px) {
+  .slide-5 {
+    background-image: url('../images/remineralizador-de-solos-mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .slide-6 {
+    background-image: url('../images/aco-banner-mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .slide-7 {
+    background-image: url('../images/mineracao-banner-mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .slide-8 {
+    background-image: url('../images/empreendimentos-banner-mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .heading-3 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: -2px;
+    margin: 0 4vw;
+  }
+
+  .paragraph-3 {
+    font-size: 20px !important;
+  }
+
+  .br-desktop {
+    display: none;
+  }
+
+  .container-2 {
+    height: 120%;
+    grid-column-gap: unset;
+    grid-row-gap: unset;
+    align-items: unset;
+  }
+
+  .container-2.direita {
+    align-items: unset;
+
+  }
+
+  .br-mobile {
+    display: unset;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: unset;
+  }
+
 }
