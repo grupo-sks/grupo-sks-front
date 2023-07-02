@@ -1,3 +1,20 @@
+
+.without-after::after{
+  display: none;
+}
+
+.pb-0 {
+  padding-bottom: 0 !important;
+}
+
+.mb-0{
+  margin-bottom: 0 !important;
+}
+
+.lh-compromissos {
+  line-height: 1.2em;
+}
+
 .mobile {
   display: none !important;
 }
@@ -212,6 +229,9 @@ svg {
 .gap-2 {
   gap: 2em;
 }
+.gap-1 {
+  gap: 1em;
+}
 
 .image-empresas-rodape {
   max-width: 170px;
@@ -289,6 +309,7 @@ svg {
 
 .fs-17 {
   font-size: 17px;
+  
 }
 
 * {
