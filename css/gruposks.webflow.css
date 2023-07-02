@@ -7,7 +7,7 @@
 }
 
 .lh-24 {
-  line-height: 24px !important;
+  line-height: 30px !important;
 }
 
 .ml-4vw {
@@ -18,9 +18,14 @@
   padding-left: 0 !important;
 }
 
+.css-1r5bg74{
+  margin: 10px;
+}
+
 svg {
-  width: 56px;
-  height: 56px;
+  width: 84px;
+  height: 84px;
+  margin-right: 10px;
 }
 
 .w-fit {
@@ -1317,7 +1322,7 @@ svg {
   max-width: 314px;
   min-height: 100%;
   min-width: 314px;
-  margin-top: 54px;
+  margin-top: 27px;
   margin-left: auto;
   margin-right: auto;
 }
