@@ -1,5 +1,5 @@
 .mobile {
-  display: none;
+  display: none !important;
 }
 
 .br-mobile {
