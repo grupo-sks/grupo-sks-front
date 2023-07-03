@@ -2944,7 +2944,7 @@ svg {
     max-width: 280px;
 }
 
-  .images-aco {
+  .images-aco.m-auto {
     margin-left: 0 !important;
   }
   
