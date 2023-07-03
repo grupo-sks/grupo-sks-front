@@ -2940,6 +2940,14 @@ svg {
     margin-right: 4vw;
   }
 
+  .images-empresas img {
+    max-width: 280px;
+}
+
+  .images-aco.m-auto {
+    margin-left: 0 !important;
+  }
+  
   .button-navbar {
     margin-left: 0;
   }
