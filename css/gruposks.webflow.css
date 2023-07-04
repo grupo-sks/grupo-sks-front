@@ -1,3 +1,6 @@
+.lcEcLb{
+  display: none !important;
+}
 
 .without-after::after{
   display: none;
