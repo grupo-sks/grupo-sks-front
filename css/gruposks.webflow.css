@@ -1,5 +1,29 @@
+.cookie-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
 
-.without-after::after{
+.cookie-btn {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.cookie-btn:hover {
+  background-color: #45a049;
+}
+
+
+.without-after::after {
   display: none;
 }
 
@@ -7,7 +31,7 @@
   padding-bottom: 0 !important;
 }
 
-.mb-0{
+.mb-0 {
   margin-bottom: 0 !important;
 }
 
@@ -35,7 +59,7 @@
   padding-left: 0 !important;
 }
 
-.css-1r5bg74{
+.css-1r5bg74 {
   margin: 10px;
 }
 
@@ -229,6 +253,7 @@ svg {
 .gap-2 {
   gap: 2em;
 }
+
 .gap-1 {
   gap: 1em;
 }
@@ -309,7 +334,7 @@ svg {
 
 .fs-17 {
   font-size: 17px;
-  
+
 }
 
 * {
@@ -2942,12 +2967,12 @@ svg {
 
   .images-empresas img {
     max-width: 280px;
-}
+  }
 
   .images-aco.m-auto {
     margin-left: 0 !important;
   }
-  
+
   .button-navbar {
     margin-left: 0;
   }
