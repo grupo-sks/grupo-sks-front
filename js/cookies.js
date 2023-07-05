@@ -1,5 +1,23 @@
-// Função para ocultar a caixa de cookies quando o botão "Aceitar" for clicado
+// Verifica se o cookie foi aceito anteriormente
+function checkCookieAccepted() {
+    return localStorage.getItem("cookieAccepted");
+}
+
+// Função para ocultar a caixa de cookies e salvar a aceitação no LocalStorage
 function acceptCookies() {
+    var cookieContainer = document.getElementById("cookieContainer");
+    cookieContainer.style.display = "none";
+
+    // Salva a aceitação dos cookies no LocalStorage
+    localStorage.setItem("cookieAccepted", true);
+}
+
+// Verifica se o cookie já foi aceito anteriormente
+if (!checkCookieAccepted()) {
+    // Exibe a caixa de cookies apenas se o cookie ainda não tiver sido aceito
+    var cookieContainer = document.getElementById("cookieContainer");
+    cookieContainer.style.display = "block";
+} else {
     var cookieContainer = document.getElementById("cookieContainer");
     cookieContainer.style.display = "none";
 }
