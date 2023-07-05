@@ -12,6 +12,14 @@ function acceptCookies() {
     localStorage.setItem("cookieAccepted", true);
 }
 
+function rejectCookies() {
+    var cookieContainer = document.getElementById("cookieContainer");
+    cookieContainer.style.display = "none";
+
+    // Salva a aceitação dos cookies no LocalStorage
+    localStorage.setItem("cookieAccepted", true);
+}
+
 // Verifica se o cookie já foi aceito anteriormente
 if (!checkCookieAccepted()) {
     // Exibe a caixa de cookies apenas se o cookie ainda não tiver sido aceito
@@ -24,4 +32,7 @@ if (!checkCookieAccepted()) {
 
 // Evento de clique do botão "Aceitar"
 var acceptButton = document.getElementById("acceptCookie");
+var rejectButton = document.getElementById("rejectCookie");
+
 acceptButton.addEventListener("click", acceptCookies);
+rejectButton.addEventListener("click", rejectCookies);

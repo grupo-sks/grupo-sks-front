@@ -52,10 +52,10 @@ modalForm.addEventListener('submit', async (e) => {
     )
     const data = await response.json()
 
-    if(data.error) alert('Código inválido')
+    if (data.error) alert('Código inválido')
     else window.location.href = "status-do-incidente.html?id=" + code.value
 })
 
-function showModal() {
-    dialog.showModal()
-}
+function showModal() { dialog.showModal() }
+
+function closeModal(){dialog.close()}

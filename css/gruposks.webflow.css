@@ -1,3 +1,20 @@
+.position-relative{
+  position: relative;
+}
+
+.close-modal-btn{
+  position: absolute;
+  background-color: transparent;
+  color: white;
+  font-size: 30px;
+  left: 10px;
+  top: -40px;
+}
+
+.bg-gray {
+  background-color: gray !important;
+}
+
 .cookie-container {
   position: fixed;
   bottom: 0;
