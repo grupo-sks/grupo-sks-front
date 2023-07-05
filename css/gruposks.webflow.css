@@ -861,25 +861,43 @@ svg {
 
 .slide-empree-1 {
   background-color: #00b2a9;
-  background-image: url('../images/empreendimentos/garvey2.png');
+  background-image: url('../images/empreendimentos/1.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
 .slide-empree-2 {
   background-color: #00b2a9;
-  background-image: url('../images/empreendimentos/Edifício\ Parque\ Cidade\ Corporate.jpg');
+  background-image: url('../images/empreendimentos/2.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
 .slide-empree-3 {
   background-color: #00b2a9;
-  background-image: url('../images/empreendimentos/Kingston.jpg');
+  background-image: url('../images/empreendimentos/3.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
 .slide-empree-4 {
   background-color: #00b2a9;
-  background-image: url('../images/empreendimentos/Lake\ side.jpg');
+  background-image: url('../images/empreendimentos/4.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slide-empree-5 {
+  background-color: #00b2a9;
+  background-image: url('../images/empreendimentos/5.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slide-empree-6 {
+  background-color: #00b2a9;
+  background-image: url('../images/empreendimentos/6.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slide-empree-7 {
+  background-color: #00b2a9;
+  background-image: url('../images/empreendimentos/7.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
