@@ -1104,7 +1104,6 @@ svg {
 .container-2 {
   height: 100%;
   grid-column-gap: 16px;
-  grid-row-gap: 16px;
   color: #fff;
   flex-direction: column;
   grid-template-rows: auto auto;
