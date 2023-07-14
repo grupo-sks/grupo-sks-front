@@ -8,11 +8,14 @@ const name = document.getElementById('nome');
 const email = document.getElementById('email');
 const branch_number = document.getElementById('ramal');
 const code = document.getElementById('code-incidente');
+const loading = document.querySelector('.loading');
 
 incidenteForm.addEventListener('submit', async () => {
     if (company.value === 'inválida') {
         return alert('Escolha uma empresa válida')
     }
+
+    setLoading(true)
 
     const response = await fetch('https://ethic-channel-sks.vercel.app/chats',
         {
@@ -34,11 +37,14 @@ incidenteForm.addEventListener('submit', async () => {
 
     const data = await response.json()
 
+    setLoading(false)
+
     if (!data.error) {
         code.value = data.token_user
         dialog.showModal()
     }
     else alert('Erro ao enviar solicitação')
+
 })
 
 modalForm.addEventListener('submit', async (e) => {
@@ -58,4 +64,14 @@ modalForm.addEventListener('submit', async (e) => {
 
 function showModal() { dialog.showModal() }
 
-function closeModal(){dialog.close()}
+function closeModal() { dialog.close() }
+
+function setLoading(load) {
+    if(load){
+        loading.style.display = 'unset' 
+        document.body.style.pointerEvents = 'none'
+    } else {
+        loading.style.display = 'none' 
+        document.body.style.pointerEvents = 'unset'
+    }
+}
