@@ -1,3 +1,7 @@
+.text-start {
+  text-align: start !important;
+}
+
 .loading {
   position: absolute;
   top: 50%;
@@ -12,6 +16,7 @@
   width: 80px;
   height: 80px;
 }
+
 .lds-ring div {
   box-sizing: border-box;
   display: block;
@@ -24,34 +29,39 @@
   animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
   border-color: #00b2a9 transparent transparent transparent;
 }
+
 .lds-ring div:nth-child(1) {
   animation-delay: -0.45s;
 }
+
 .lds-ring div:nth-child(2) {
   animation-delay: -0.3s;
 }
+
 .lds-ring div:nth-child(3) {
   animation-delay: -0.15s;
 }
+
 @keyframes lds-ring {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
 }
 
 
-.wa-chat-box-content-send-btn-icon{
+.wa-chat-box-content-send-btn-icon {
   display: none;
 }
 
-.position-relative{
+.position-relative {
   position: relative;
 }
 
-.close-modal-btn{
+.close-modal-btn {
   position: absolute;
   background-color: transparent;
   color: white;
@@ -104,6 +114,10 @@
 
 .mb-0 {
   margin-bottom: 0 !important;
+}
+
+.mb-2em {
+  margin-bottom: 2em !important;
 }
 
 .lh-compromissos {
@@ -314,6 +328,10 @@ svg {
 }
 
 .mt-58 {
+  margin-top: 58px !important;
+}
+
+.mt-md-58 {
   margin-top: 58px !important;
 }
 
@@ -624,6 +642,7 @@ svg {
 }
 
 .sidebar-btn {
+  width: 30px;
   margin-left: 10px;
   margin-top: 10px;
   cursor: pointer;
@@ -910,36 +929,42 @@ svg {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .slide-empree-2 {
   background-color: #00b2a9;
   background-image: url('../images/empreendimentos/2.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .slide-empree-3 {
   background-color: #00b2a9;
   background-image: url('../images/empreendimentos/3.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .slide-empree-4 {
   background-color: #00b2a9;
   background-image: url('../images/empreendimentos/4.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .slide-empree-5 {
   background-color: #00b2a9;
   background-image: url('../images/empreendimentos/5.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .slide-empree-6 {
   background-color: #00b2a9;
   background-image: url('../images/empreendimentos/6.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .slide-empree-7 {
   background-color: #00b2a9;
   background-image: url('../images/empreendimentos/7.png');
@@ -1837,7 +1862,6 @@ svg {
 
 .heading-7._2 {
   text-align: left;
-  margin-left: 64px;
   font-size: 18px;
   font-weight: 500;
 
@@ -2588,7 +2612,6 @@ svg {
   background-color: #fff;
   margin-top: 117px;
   margin-bottom: -92px;
-  padding-top: 49px;
   padding-bottom: 56px;
 }
 
@@ -2875,7 +2898,8 @@ svg {
 
   .paragraph {
     min-width: 231px;
-    font-size: 12px;
+    font-size: 16px;
+    max-height: unset;
   }
 
   .container-6 {
@@ -3157,7 +3181,7 @@ svg {
   }
 
   .paragraph-11 {
-    font-size: 3vw;
+    font-size: 4vw;
     margin: 0 1em;
   }
 
@@ -3187,6 +3211,18 @@ svg {
 }
 
 @media screen and (max-width: 992px) {
+
+  .mt-md-58 {
+    margin-top: unset !important;
+  }
+
+  .sidebar>a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+  }
+
   .image-empresas-rodape {
     max-width: 80px !important;
     max-height: 50px;
@@ -3213,7 +3249,6 @@ svg {
   .heading-10,
   .heading-11 {
     display: inline;
-    margin-left: 4vw !important;
   }
 
   .div-block-37 {
@@ -3304,7 +3339,13 @@ svg {
   }
 
   .sidebar {
-    display: unset;
+    width: 100%;
+    background-color: white;
+    display: inline-flex;
+  }
+
+  .sidebar>img {
+    align-self: center;
   }
 
   .quadro-quemsomos {
@@ -3430,6 +3471,20 @@ svg {
   }
 
 
+  .css-re2fs6 {
+    justify-content: end !important;
+    margin-left: -10px !important;
+    margin-bottom: 10px !important;
+    z-index: 100;
+    width: unset !important;
+    left: unset !important;
+  }
+
+  svg {
+    width: 64px;
+    height: 64px;
+  }
+
 }
 
 @media screen and (max-width: 315px) {
@@ -3504,7 +3559,37 @@ svg {
   }
 
   .mobile {
-    display: unset;
+    display: unset !important;
   }
 
+  .titulo-copy {
+    display: inline-table !important;
+  }
+
+  .titulo-copy::after,
+  .titulo.preto::after,
+  .after-white::after {
+    right: unset !important;
+    left: 10px;
+  }
+
+  .tabs-menu-wrapper .w-tab-link {
+    padding: .7em .7em;
+  }
+
+  .titulo.preto {
+    display: inline-table;
+  }
+
+  .video{
+    width: 100% !important;
+  }
+
+  #modal-form > div {
+    width: 90% !important;
+  }
+
+  #dialog {
+    transform: translate(-50%, -40%) !important;
+  }
 }
