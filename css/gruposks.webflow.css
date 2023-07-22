@@ -3166,9 +3166,16 @@ svg {
   .tabs-menu-wrapper {
     flex-wrap: wrap;
   }
+
 }
 
 @media screen and (max-width: 690px) {
+  .justify-mobile-start{
+    justify-content: start !important;
+  }
+  .div-block-21{
+    flex-direction: column !important;
+  }
   .div-block-28 {
     flex-direction: column;
     margin-top: 0;
@@ -3177,6 +3184,7 @@ svg {
   }
 
   .div-logo-verde img {
+    margin-top: 2em;
     max-width: 300px;
   }
 
@@ -3242,7 +3250,7 @@ svg {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-right: 30px;
+    margin-right: 40px;
   }
 
   .image-empresas-rodape {
@@ -3521,6 +3529,10 @@ svg {
 }
 
 @media screen and (max-width: 600px) {
+
+  .certifica-div {
+    margin-left: unset !important;
+  }
   .slide-5 {
     background-image: url('../images/remineralizador-de-solos-mobile.png');
     background-repeat: no-repeat;
@@ -3561,7 +3573,7 @@ svg {
   }
 
   .container-2 {
-    height: 120%;
+    height: 130%;
     grid-column-gap: unset;
     grid-row-gap: unset;
     align-items: unset;
