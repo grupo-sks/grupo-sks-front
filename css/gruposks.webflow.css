@@ -3212,6 +3212,28 @@ svg {
 
 @media screen and (max-width: 992px) {
 
+.slide-empree-1{
+  background-image: url("../images/empreendimentos/1\ mobile.png");
+}
+.slide-empree-2{
+  background-image: url("../images/empreendimentos/2\ mobile.png");
+}
+.slide-empree-3{
+  background-image: url("../images/empreendimentos/3\ mobile.png");
+}
+.slide-empree-4{
+  background-image: url("../images/empreendimentos/4\ mobile.png");
+}
+.slide-empree-5{
+  background-image: url("../images/empreendimentos/5\ mobile.png");
+}
+.slide-empree-6{
+  background-image: url("../images/empreendimentos/6\ mobile.png");
+}
+.slide-empree-7{
+  background-image: url("../images/empreendimentos/7\ mobile.png");
+}
+
   .mt-md-58 {
     margin-top: unset !important;
   }
