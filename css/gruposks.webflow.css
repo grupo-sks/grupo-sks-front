@@ -446,7 +446,7 @@ svg {
 
 .h1-etica {
   font-weight: 600;
-  font-size: 42.13px;
+  font-size: clamp(22px, 7vw, 42.13px);
   line-height: 46px;
   letter-spacing: 0.957447px;
   color: #FFFFFF;
@@ -2226,6 +2226,7 @@ svg {
 }
 
 .paragraph-11 {
+  line-height: 1.6em;
   max-width: 668px;
   color: #fff;
   text-align: justify;
@@ -2539,7 +2540,7 @@ svg {
   min-height: 43px;
   color: #fff;
   font-family: Kastelov axiforma, Georgia, sans-serif;
-  font-size: clamp(22px, 10vw, 42.13px);
+  font-size: clamp(22px, 7vw, 42.13px);
   font-weight: 600;
   position: relative;
   display: inline-block;
@@ -3170,12 +3171,18 @@ svg {
 }
 
 @media screen and (max-width: 690px) {
-  .justify-mobile-start{
+  .flex-wrap-mobile {
+    flex-wrap: wrap;
+  }
+
+  .justify-mobile-start {
     justify-content: start !important;
   }
-  .div-block-21{
+
+  .div-block-21 {
     flex-direction: column !important;
   }
+
   .div-block-28 {
     flex-direction: column;
     margin-top: 0;
@@ -3204,7 +3211,9 @@ svg {
 }
 
 @media screen and (max-width: 630px) {
-
+  .mr-15{
+    margin-right: unset !important;
+  }
 
   .list-agro {
     gap: 1em;
@@ -3220,27 +3229,33 @@ svg {
 
 @media screen and (max-width: 992px) {
 
-.slide-empree-1{
-  background-image: url("../images/empreendimentos/1\ mobile.png");
-}
-.slide-empree-2{
-  background-image: url("../images/empreendimentos/2\ mobile.png");
-}
-.slide-empree-3{
-  background-image: url("../images/empreendimentos/3\ mobile.png");
-}
-.slide-empree-4{
-  background-image: url("../images/empreendimentos/4\ mobile.png");
-}
-.slide-empree-5{
-  background-image: url("../images/empreendimentos/5\ mobile.png");
-}
-.slide-empree-6{
-  background-image: url("../images/empreendimentos/6\ mobile.png");
-}
-.slide-empree-7{
-  background-image: url("../images/empreendimentos/7\ mobile.png");
-}
+  .slide-empree-1 {
+    background-image: url("../images/empreendimentos/1\ mobile.png");
+  }
+
+  .slide-empree-2 {
+    background-image: url("../images/empreendimentos/2\ mobile.png");
+  }
+
+  .slide-empree-3 {
+    background-image: url("../images/empreendimentos/3\ mobile.png");
+  }
+
+  .slide-empree-4 {
+    background-image: url("../images/empreendimentos/4\ mobile.png");
+  }
+
+  .slide-empree-5 {
+    background-image: url("../images/empreendimentos/5\ mobile.png");
+  }
+
+  .slide-empree-6 {
+    background-image: url("../images/empreendimentos/6\ mobile.png");
+  }
+
+  .slide-empree-7 {
+    background-image: url("../images/empreendimentos/7\ mobile.png");
+  }
 
   .mt-md-58 {
     margin-top: unset !important;
@@ -3269,12 +3284,6 @@ svg {
   .w-30 {
     width: 100% !important;
   }
-
-  .titulo.preto.aco {
-    margin-left: 4vw;
-  }
-
-
 
   .heading-10,
   .heading-11 {
@@ -3473,7 +3482,6 @@ svg {
   }
 
   .div-selos {
-    margin-left: 4vw;
     min-width: unset;
     min-height: unset;
   }
@@ -3533,6 +3541,7 @@ svg {
   .certifica-div {
     margin-left: unset !important;
   }
+
   .slide-5 {
     background-image: url('../images/remineralizador-de-solos-mobile.png');
     background-repeat: no-repeat;
@@ -3558,7 +3567,7 @@ svg {
   }
 
   .heading-3 {
-    font-size: 40px;
+    font-size: 9vw;
     line-height: 50px;
     margin-bottom: -2px;
     margin: 0 4vw;
@@ -3615,15 +3624,21 @@ svg {
     display: inline-table;
   }
 
-  .video{
+  .video {
     width: 100% !important;
   }
 
-  #modal-form > div {
+  #modal-form>div {
     width: 90% !important;
   }
 
   #dialog {
-    transform: translate(-50%, -40%) !important;
+    transform: translate(-50%, -30%) !important;
   }
+
+  .img-contato{
+
+    background-image: url('../images/contato_whatsapp_mobile.png') !important;
+  }
+
 }
