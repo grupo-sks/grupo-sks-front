@@ -3217,7 +3217,8 @@ svg {
 
   .list-agro {
     gap: 1em;
-    justify-content: center;
+    justify-content: start;
+    margin-left: 4vw;
   }
 }
 
