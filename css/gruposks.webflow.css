@@ -170,6 +170,7 @@
 
 .css-1r5bg74 {
   margin: 10px;
+  margin-right: 25px;
 }
 
 svg {
@@ -3850,6 +3851,7 @@ svg {
   svg {
     width: 64px;
     height: 64px;
+    margin-right: 10px;
   }
 
 }
