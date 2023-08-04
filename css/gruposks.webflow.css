@@ -3437,6 +3437,7 @@ svg {
 
 @media screen and (max-width: 630px) {
   .btn-etica{
+    max-height: unset !important;
       min-height: 48px;
       text-align: center;
       background-color: #ffffff;
@@ -3448,7 +3449,7 @@ svg {
       font-weight: 700;
       display: flex;
       color: #00b2a9;
-      padding: .1em 3em;
+      padding: .5em 2.6em;
       margin-right: 15%;
   }
   
