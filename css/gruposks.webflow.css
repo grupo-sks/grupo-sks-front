@@ -704,6 +704,7 @@ svg {
 .nav-aco {
   position: absolute;
   top: -3.4em;
+  z-index: 2;
   background-color: white;
   border-radius: 5px;
   left: 50%;
@@ -856,6 +857,179 @@ svg {
   background-position: 50%;
   background-size: auto;
   background-clip: border-box;
+}
+
+.slide-mineracao-1 {
+  max-height: 689px;
+  max-width: 1920px;
+  -webkit-text-fill-color: inherit;
+  background-image: url('../images/imagens_produtos_mineração/Imagens_pagina_mineracao_1.png');
+  background-position: 50%;
+  background-size: auto;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+}
+
+.slide-mineracao-2 {
+  max-height: 689px;
+  max-width: 1920px;
+  -webkit-text-fill-color: inherit;
+  background-image: url('../images/imagens_produtos_mineração/Imagens_pagina_mineracao_2.png');
+  background-position: 50%;
+  background-size: auto;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+}
+
+.slide-mineracao-3 {
+  max-height: 689px;
+  max-width: 1920px;
+  -webkit-text-fill-color: inherit;
+  background-image: url('../images/imagens_produtos_mineração/Imagens_pagina_mineracao_3.png');
+  background-position: 50%;
+  background-size: auto;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+}
+
+.slide-mineracao-4 {
+  max-height: 689px;
+  max-width: 1920px;
+  -webkit-text-fill-color: inherit;
+  background-image: url('../images/imagens_produtos_mineração/Imagens_pagina_mineracao_4.png');
+  background-position: 50%;
+  background-size: auto;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+}
+.slide-empree-1 {
+  max-height: 689px;
+  max-width: 1920px;
+  -webkit-text-fill-color: inherit;
+  background-image: url('../images/empreendimentos/Imagens_pagina_empreendimentos_1.png');
+  background-position: 50%;
+  background-size: auto;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+}
+
+.slide-empree-2 {
+  max-height: 689px;
+  max-width: 1920px;
+  -webkit-text-fill-color: inherit;
+  background-image: url('../images/empreendimentos/Imagens_pagina_empreendimentos_2.png');
+  background-position: 50%;
+  background-size: auto;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+}
+
+.slide-empree-3 {
+  max-height: 689px;
+  max-width: 1920px;
+  -webkit-text-fill-color: inherit;
+  background-image: url('../images/empreendimentos/Imagens_pagina_empreendimentos_3.png');
+  background-position: 50%;
+  background-size: auto;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+}
+
+.slide-empree-4 {
+  max-height: 689px;
+  max-width: 1920px;
+  -webkit-text-fill-color: inherit;
+  background-image: url('../images/empreendimentos/Imagens_pagina_empreendimentos_4.png');
+  background-position: 50%;
+  background-size: auto;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+}
+.slide-aco-1 {
+  max-height: 689px;
+  max-width: 1920px;
+  -webkit-text-fill-color: inherit;
+  background-image: url('../images/imagens_aco/Imagens_pagina_aco_1.png');
+  background-position: 50%;
+  background-size: auto;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+}
+
+.slide-aco-2 {
+  max-height: 689px;
+  max-width: 1920px;
+  -webkit-text-fill-color: inherit;
+  background-image: url('../images/imagens_aco/Imagens_pagina_aco_2.png');
+  background-position: 50%;
+  background-size: auto;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+}
+
+.slide-aco-3 {
+  max-height: 689px;
+  max-width: 1920px;
+  -webkit-text-fill-color: inherit;
+  background-image: url('../images/imagens_aco/Imagens_pagina_aco_3.png');
+  background-position: 50%;
+  background-size: auto;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+}
+
+.slide-aco-4 {
+  max-height: 689px;
+  max-width: 1920px;
+  -webkit-text-fill-color: inherit;
+  background-image: url('../images/imagens_aco/Imagens_pagina_aco_4.png');
+  background-position: 50%;
+  background-size: auto;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+}
+.slide-agro-1 {
+  max-height: 689px;
+  max-width: 1920px;
+  -webkit-text-fill-color: inherit;
+  background-image: url('../images/imagens_agro/Imagens_pagina_agro_1.png');
+  background-position: 50%;
+  background-size: auto;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+}
+
+.slide-agro-2 {
+  max-height: 689px;
+  max-width: 1920px;
+  -webkit-text-fill-color: inherit;
+  background-image: url('../images/imagens_agro/Imagens_pagina_agro_2.png');
+  background-position: 50%;
+  background-size: auto;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+}
+
+.slide-agro-3 {
+  max-height: 689px;
+  max-width: 1920px;
+  -webkit-text-fill-color: inherit;
+  background-image: url('../images/imagens_agro/Imagens_pagina_agro_3.png');
+  background-position: 50%;
+  background-size: auto;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+}
+
+.slide-agro-4 {
+  max-height: 689px;
+  max-width: 1920px;
+  -webkit-text-fill-color: inherit;
+  background-image: url('../images/imagens_agro/Imagens_pagina_agro_4.png');
+  background-position: 50%;
+  background-size: auto;
+  background-clip: border-box;
+  background-repeat: no-repeat;
 }
 
 .image-2 {
@@ -3212,7 +3386,7 @@ svg {
 }
 
 @media screen and (max-width: 630px) {
-  .mr-15{
+  .mr-15 {
     margin-right: unset !important;
   }
 
@@ -3221,6 +3395,84 @@ svg {
     justify-content: start;
     margin-left: 4vw;
   }
+
+  .slide-mineracao-1 {
+    background-image: url("../images/imagens_produtos_mineração/Mobile_minercao_1.png") !important;
+    background-size: cover;
+  }
+
+  .slide-mineracao-2 {
+    background-image: url("../images/imagens_produtos_mineração/Mobile_minercao_2.png");
+    background-size: cover;
+  }
+
+  .slide-mineracao-3 {
+    background-image: url("../images/imagens_produtos_mineração/Mobile_minercao_3.png");
+    background-size: cover;
+  }
+
+  .slide-mineracao-4 {
+    background-image: url("../images/imagens_produtos_mineração/Mobile_minercao_4.png");
+    background-size: cover;
+  }
+  .slide-empree-1 {
+    background-image: url("../images/empreendimentos/Mobile_empreendimentos_1.png") !important;
+    background-size: cover;
+  }
+
+  .slide-empree-2 {
+    background-image: url("../images/empreendimentos/Mobile_empreendimentos_2.png");
+    background-size: cover;
+  }
+
+  .slide-empree-3 {
+    background-image: url("../images/empreendimentos/Mobile_empreendimentos_3.png");
+    background-size: cover;
+  }
+
+  .slide-empree-4 {
+    background-image: url("../images/empreendimentos/Mobile_empreendimentos_4.png");
+    background-size: cover;
+  }
+  .slide-agro-1 {
+    background-image: url("../images/imagens_agro/AGRO_MOBILE/Mobile_agro_1.png") !important;
+    background-size: cover;
+  }
+
+  .slide-agro-2 {
+    background-image: url("../images/imagens_agro/AGRO_MOBILE/Mobile_agro_2.png");
+    background-size: cover;
+  }
+
+  .slide-agro-3 {
+    background-image: url("../images/imagens_agro/AGRO_MOBILE/Mobile_agro_3.png");
+    background-size: cover;
+  }
+
+  .slide-agro-4 {
+    background-image: url("../images/imagens_agro/AGRO_MOBILE/Mobile_agro_4.png");
+    background-size: cover;
+  }
+  .slide-aco-1 {
+    /* background-image: url("../images/imagens_aco/AÇO_MOBILE/") !important; */
+    background-size: cover;
+  }
+
+  .slide-aco-2 {
+    background-image: url("../images/imagens_aco/AÇO_MOBILE/Mobile_aco_2.png");
+    background-size: cover;
+  }
+
+  .slide-aco-3 {
+    background-image: url("../images/imagens_aco/AÇO_MOBILE/Mobile_aco_3.png");
+    background-size: cover;
+  }
+
+  .slide-aco-4 {
+    background-image: url("../images/imagens_aco/AÇO_MOBILE/Mobile_aco_4.png");
+    background-size: cover;
+  }
+
 }
 
 @media screen and (max-width: 1292px) {
@@ -3638,7 +3890,7 @@ svg {
     transform: translate(-50%, -30%) !important;
   }
 
-  .img-contato{
+  .img-contato {
 
     background-image: url('../images/contato_whatsapp_mobile.png') !important;
   }
