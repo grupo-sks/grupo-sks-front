@@ -162,7 +162,10 @@ svg {
 .w-fit {
   width: fit-content;
 }
-
+.pt-pb-20{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .pb-58 {
   padding-bottom: 58px;
 }
