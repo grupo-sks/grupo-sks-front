@@ -84,6 +84,7 @@
   text-align: center;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   z-index: 300;
+  display: none;
 }
 
 .lcEcLb {
