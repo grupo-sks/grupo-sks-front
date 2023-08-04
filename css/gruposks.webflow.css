@@ -1,3 +1,5 @@
+
+
 .w-91vw{
   width: 91vw;
 }
@@ -3431,11 +3433,29 @@ svg {
   .div-block-7 {
     justify-content: start;
   }
-
-
 }
 
 @media screen and (max-width: 630px) {
+  .btn-etica{
+      min-height: 48px;
+      text-align: center;
+      background-color: #ffffff;
+      border-radius: 15px;
+      flex-direction: column;
+      justify-content: center;
+      font-family: Kastelov axiforma, Georgia, sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      display: flex;
+      color: #00b2a9;
+      padding: .1em 3em;
+      margin-right: 15%;
+  }
+  
+  .justify-center-mobile{
+    justify-content: center !important;
+  }
+  
   .mr-15 {
     margin-right: unset !important;
   }
@@ -3444,6 +3464,10 @@ svg {
     gap: 1em;
     justify-content: start;
     margin-left: 4vw;
+  }
+
+  .heading-3 {
+    margin-top: -40px !important;
   }
 
   .slide-mineracao-1 {
