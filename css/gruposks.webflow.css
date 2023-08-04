@@ -2634,8 +2634,11 @@ svg {
   min-height: 100vh;
   background-color: #000;
   padding-top: 7.5em;
-  padding-bottom: 6.5em;
   display: flex;
+}
+
+.mt-m20{
+  margin-top: -20px !important;
 }
 
 .tab-content {
