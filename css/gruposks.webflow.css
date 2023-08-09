@@ -164,6 +164,10 @@
   margin-left: 4vw;
 }
 
+.d-inline-table {
+  display: inline-table !important;
+
+}
 .pl-0 {
   padding-left: 0 !important;
 }
