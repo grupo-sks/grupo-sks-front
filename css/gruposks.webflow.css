@@ -1,4 +1,7 @@
-
+.no-link{
+  text-decoration: none !important;
+  color: unset !important;
+}
 
 .w-91vw{
   width: 91vw;
