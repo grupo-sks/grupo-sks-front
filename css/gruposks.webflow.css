@@ -410,7 +410,8 @@ svg {
   font-weight: 700;
   display: flex;
   color: #00b2a9;
-  padding: 0 3em;
+  line-height: 1em;
+  padding: 1.3em 3em;
   margin-right: 15%;
 }
 
